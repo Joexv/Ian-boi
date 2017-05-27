@@ -1,0 +1,30 @@
+------------------------------------------------------------------------------------------------
+Between 0x50 and around 0x2BB seem to be general event flags, however there are large gaps here.
+0x2BC - 0x3E7 are all Over World flags, there are one or two gaps.
+0x3E8 - 0x492 are all item flags, once again there are gaps.
+0x493 - 0x4EF is another large gap
+0x4F0 - 0x4FF are more event flags
+------------------------------------------------------------------------------------------------
+
+Used Flags
+
+
+//These flags will show or hide the menu options
+FlagPokedex = 0x861
+uses
+FlagPokemon = 0x860
+uses
+FlagBag = 0x250
+
+FlagPokenav = 0x862
+uses
+FlagSave = 0x251
+FlagExit = 0x252
+FlagTrainerCard = 0x253
+FlagOptions = 0x254
+
+
+Disable EXP gain = 0x255
+Allow battle to be lost = 0x256
+Force SET battle type = 0x257
+Cant catch pokemon = 0x258
